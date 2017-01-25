@@ -13,6 +13,11 @@ namespace MyNotepad.Viewmodels
 {
   public class MainPageViewModel : INotifyPropertyChanged
   {
+    public MainPageViewModel()
+    {
+      App.FileReceived += async (s, e) => File = await _fileServices.LoadAsync(e);
+    }
+
     public event PropertyChangedEventHandler PropertyChanged;
 
     private FileInfo _file;
