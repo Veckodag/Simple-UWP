@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UWPDemo", "UWPDemo\UWPDemo.csproj", "{56B0925F-D807-4627-8876-15FF4FDDFCA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyNotepad", "MyNotepad\MyNotepad.csproj", "{F82D2B06-2076-451C-BAD4-79C06319A08A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -33,6 +35,24 @@ Global
 		{56B0925F-D807-4627-8876-15FF4FDDFCA8}.Release|x86.ActiveCfg = Release|x86
 		{56B0925F-D807-4627-8876-15FF4FDDFCA8}.Release|x86.Build.0 = Release|x86
 		{56B0925F-D807-4627-8876-15FF4FDDFCA8}.Release|x86.Deploy.0 = Release|x86
+		{F82D2B06-2076-451C-BAD4-79C06319A08A}.Debug|ARM.ActiveCfg = Debug|ARM
+		{F82D2B06-2076-451C-BAD4-79C06319A08A}.Debug|ARM.Build.0 = Debug|ARM
+		{F82D2B06-2076-451C-BAD4-79C06319A08A}.Debug|ARM.Deploy.0 = Debug|ARM
+		{F82D2B06-2076-451C-BAD4-79C06319A08A}.Debug|x64.ActiveCfg = Debug|x64
+		{F82D2B06-2076-451C-BAD4-79C06319A08A}.Debug|x64.Build.0 = Debug|x64
+		{F82D2B06-2076-451C-BAD4-79C06319A08A}.Debug|x64.Deploy.0 = Debug|x64
+		{F82D2B06-2076-451C-BAD4-79C06319A08A}.Debug|x86.ActiveCfg = Debug|x86
+		{F82D2B06-2076-451C-BAD4-79C06319A08A}.Debug|x86.Build.0 = Debug|x86
+		{F82D2B06-2076-451C-BAD4-79C06319A08A}.Debug|x86.Deploy.0 = Debug|x86
+		{F82D2B06-2076-451C-BAD4-79C06319A08A}.Release|ARM.ActiveCfg = Release|ARM
+		{F82D2B06-2076-451C-BAD4-79C06319A08A}.Release|ARM.Build.0 = Release|ARM
+		{F82D2B06-2076-451C-BAD4-79C06319A08A}.Release|ARM.Deploy.0 = Release|ARM
+		{F82D2B06-2076-451C-BAD4-79C06319A08A}.Release|x64.ActiveCfg = Release|x64
+		{F82D2B06-2076-451C-BAD4-79C06319A08A}.Release|x64.Build.0 = Release|x64
+		{F82D2B06-2076-451C-BAD4-79C06319A08A}.Release|x64.Deploy.0 = Release|x64
+		{F82D2B06-2076-451C-BAD4-79C06319A08A}.Release|x86.ActiveCfg = Release|x86
+		{F82D2B06-2076-451C-BAD4-79C06319A08A}.Release|x86.Build.0 = Release|x86
+		{F82D2B06-2076-451C-BAD4-79C06319A08A}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
