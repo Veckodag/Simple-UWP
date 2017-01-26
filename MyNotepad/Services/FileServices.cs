@@ -18,16 +18,6 @@ namespace MyNotepad.Services
         await FileIO.WriteTextAsync(model.Ref, model.Text);
     }
 
-    //public async Task<Models.FileInfo> LoadAsync(Windows.Storage.StorageFile file)
-    //{
-    //  return new FileInfo
-    //  {
-    //    Text = await FileIO.ReadTextAsync(file),
-    //    Name = file.DisplayName,
-    //    Ref = file
-    //  };
-
-    //}
     public async Task<FileInfo> LoadAsync(StorageFile file)
     {
       if (JumpList.IsSupported())

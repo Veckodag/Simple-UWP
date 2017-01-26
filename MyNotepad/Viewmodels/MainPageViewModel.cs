@@ -28,15 +28,24 @@ namespace MyNotepad.Viewmodels
       set
       {
         _file = value;
-       PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(File)));
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(File)));
       }
     }
 
     FileServices _fileServices = new FileServices();
+    ToastService _toastService = new ToastService();
 
     public async void Save()
     {
-      await _fileServices.SaveAsync(File);
+      try
+      {
+        await _fileServices.SaveAsync(File);
+        _toastService.ShowToast(File, "File Successfully Saved!");
+      }
+      catch (Exception ex)
+      {
+        _toastService.ShowToast(File, $"Save failed {ex.Message}");
+      }
     }
 
     public async void Open()
